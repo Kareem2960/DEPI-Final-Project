@@ -1,0 +1,22 @@
+.sidebar {
+  min-height: 100vh;
+  background: #f8f9fa;
+  border-right: 1px solid #e3e3e3;
+}
+.sidebar-logo {
+  font-size: 1.5rem;
+  color: #000000;
+  text-align: left;
+}
+.sidebar .nav-link {
+  color: #333;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  padding: 10px 16px;
+  margin-bottom: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+.sidebar .nav-link.active, .sidebar .nav-link:hover {
+  background: #e3f2fd;
+  color: #1976d2;
+} 

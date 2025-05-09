@@ -1,0 +1,24 @@
+.topbar {
+  min-height: 64px;
+  background: #fff;
+  border-bottom: 1px solid #e3e3e3;
+  z-index: 10;
+}
+.topbar-title h4 {
+  color: #222;
+  font-size: 1.3rem;
+}
+.topbar-bell {
+  cursor: pointer;
+}
+.topbar-badge {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+}
+.topbar-user img {
+  border: 2px solid #e3e3e3;
+}
+.topbar-user span {
+  color: #333;
+  font-size: 1rem;
+} 
